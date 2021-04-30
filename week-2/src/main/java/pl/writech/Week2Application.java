@@ -1,4 +1,4 @@
-package pl.writech.week2;
+package pl.writech;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
