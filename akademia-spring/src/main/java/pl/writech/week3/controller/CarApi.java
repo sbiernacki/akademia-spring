@@ -15,7 +15,7 @@ import java.util.Optional;
 @RequestMapping("/cars")
 public class CarApi {
 
-    CarService carService;
+    private CarService carService;
 
     @Autowired
     public CarApi(CarService carService) {

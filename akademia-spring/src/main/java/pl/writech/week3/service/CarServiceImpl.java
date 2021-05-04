@@ -12,7 +12,7 @@ import java.util.Optional;
 @Service
 public class CarServiceImpl implements CarService {
 
-    List<Car> cars;
+    private List<Car> cars;
 
     public List<Car> getCars() {
         return cars;
